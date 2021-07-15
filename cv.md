@@ -43,5 +43,5 @@ I am finishing courses on Web development on the Udemy platform. During these co
 2. RS School for now.
 
 ## Languages skills
-*English - A2 
-*Polish - A2
+* English - A2 
+* Polish - A2
