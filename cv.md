@@ -34,3 +34,14 @@ else if (groupNumber === 2 && index >= 30.9 && index < 35.9) {alert("Ожире�
 else if (groupNumber === 2 && index >= 35.9 && index < 40.9) {alert("Ожирение 3 степени");}
 else if (groupNumber === 2 && index >= 40.9 ) {alert("Ожирение 4 степени");}
 ```
+
+## Experience
+I am finishing courses on Web development on the Udemy platform. During these courses, we made applications: weight assessment by height, currency exchange, a mini-game for reaction, and more.
+
+## Education
+1. Web development courses on the Udemy platform.
+2. RS School for now.
+
+## Languages skills
+*English - A2 
+*Polish - A2
