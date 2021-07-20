@@ -2,7 +2,7 @@
 ## Contact Info 
 **Address**: 3 Gorodetskaya Street, apt. 48, Minsk, 220125, Belarus. **Phone number**: +375296097224 **Email**: vikysan@outlook.com 
 ## Summary
-  I worked for 4 years on the Belarusian Railway for distribution after graduating from Belarusian State University of Transport Gomel, Belarus (finished in 2012), Faculty of Electrical Engineering(Automation, telemechanics and communication in railway transport), professional qualification of an electrical engineer. In 2015, I graduated from the State Economic University Minsk(economist-manager). Then I spent 5 years on maternity leave to care for children. In recent years, I have been searching for myself. The most unrealistic dream was to work in IT. But, a combination of circumstances and the help of friends helped me get closer to my dream. I finished the courses on the Udemy platform and realized that this is what I was looking for. Now I want to finish RS-school with success and fulfill my dream.
+  I’m an electrical engineer. In 2012 I graduated from Belarusian State University of Transport Gomel, Belarus where I was studying on Automation, Telemechanics and Communication in Railway Transport faculty. Then I was working on the Belarusian Railway for distribution for 4 years. Also, in 2015, I graduated from the State Economic University Minsk as economist-manager. Then I spent 5 years on maternity leave taking care for my children. In recent years, I have been searching for myself. Work in IT always seemed for me as a pipe dream. But, a combination of circumstances and support of my friends helped me to get closer to it. Recently I’ve finished the courses on the Udemy platform and realized that this is exactly what I was looking for. And now I’m looking forward to finish RS-School courses with success and fulfill my dream.
 
 ## Skills
 html, css JS, git. Superficial knowledge: jQuery, Bootstrap, PHP, MySQL.
@@ -36,7 +36,7 @@ else if (groupNumber === 2 && index >= 40.9 ) {alert("Ожирение 4 сте�
 ```
 
 ## Experience
-I am finishing courses on Web development on the Udemy platform. During these courses, we made applications: weight assessment by height, currency exchange, a mini-game for reaction, and more.
+I have completed courses for Web development on the Udemy platform. During these courses, we were creating applications for weight estimation by height, currency exchange, reaction mini-game, etc.
 
 ## Education
 1. Web development courses on the Udemy platform.
