@@ -16,7 +16,7 @@ body{
 #name {
     text-transform: uppercase;
     text-align: center;
-    color: #273d27;
+    
 
     
 
@@ -24,16 +24,17 @@ body{
 #heading {
     text-transform: uppercase;
     text-align: left;
-    color:#16610b;
+    color:#17028f;
     letter-spacing: 0.2rem;
     margin: 10px;
 
 }
 
 #border {
-    border-left: 5px solid #16610b;
+    border-left: 5px solid #17028f;
     padding-left: 10px;
     margin: 10px;
+    text-align:justify;
     
 }
 
@@ -41,7 +42,7 @@ body{
 
 img{
      width: 300px;
-     border:5px solid #3e543e;
+     
 
      
 ;
@@ -76,3 +77,7 @@ img{
     justify-content: space-between;
     background-color: #cfd1cf;
   }
+.code {
+    font-size: 12px;
+
+}
