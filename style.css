@@ -7,31 +7,36 @@ body{
 
 #cv-header {
     text-transform: uppercase;
-    color: #273d27;
     text-align: center;
-    border-bottom: 2px solid #16610b;
+    border-bottom: 2px solid #530322;
     padding-bottom: 20px;
 
 }
-#name {
+#heading2 {
     text-transform: uppercase;
     text-align: center;
-    
-
-    
+    color: white ; 
+    background-color: #530322;  
+    margin: 20px 0 10px 10px; 
+    padding: 15px;
+  
 
 }
+
 #heading {
     text-transform: uppercase;
     text-align: left;
-    color:#17028f;
+    color: white;
     letter-spacing: 0.2rem;
-    margin: 10px;
+    margin: 20px 0 10px 10px;
+    background-color:#530322 ;
+    padding: 15px;
+  
 
 }
 
 #border {
-    border-left: 5px solid #17028f;
+    border-left: 5px solid  #530322;
     padding-left: 10px;
     margin: 10px;
     text-align:justify;
@@ -43,10 +48,6 @@ body{
 img{
      width: 300px;
      
-
-     
-;
-     
  }
 
  .wrapper {
@@ -56,28 +57,27 @@ img{
 
 
  .container3 {
-    border:2px solid #3e543e;
+    
     float: left;
     width: 49%;
     justify-content: space-between;
-    background-color:   #cfd1cf;
+    
  }
  .container1 {
     
     float: left;
     width: 100%;
     justify-content: space-between;
-    
-    
+
+      
   }
+
   .container2 {
-    border:2px solid #3e543e;
     width: 49%;
     float: right;
-    justify-content: space-between;
-    background-color: #cfd1cf;
+    justify-content: space-between;   
   }
+
 .code {
     font-size: 12px;
-
 }
