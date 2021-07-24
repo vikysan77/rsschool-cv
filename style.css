@@ -80,3 +80,16 @@ figure {
 .code {
     font-size: 12px;
 }
+
+.foot{
+    clear: both;
+    text-align: center;
+    background-color: #530322c7;
+    color: #e8ebe8;
+}
+
+#github {
+     color: aliceblue;
+}
+    
+    
