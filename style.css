@@ -1,0 +1,95 @@
+.body{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e8ebe8;
+}
+
+
+#cv-header {
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px solid #530322;
+    padding-bottom: 20px;
+
+}
+#heading2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white ; 
+    background-color: #530322;  
+    margin: 20px 0 10px 10px; 
+    padding: 15px;
+  
+
+}
+
+.heading1 {
+    text-transform: uppercase;
+    text-align: left;
+    color: white;
+    letter-spacing: 0.2rem;
+    margin: 20px 0 10px 10px;
+    background-color:#530322 ;
+    padding: 15px;
+  
+
+}
+
+.border {
+    border-left: 5px solid  #530322;
+    padding-left: 10px;
+    margin: 10px;
+    text-align:justify;
+    
+}
+
+
+
+figure {
+    text-align: center;    
+ }
+
+ .wrapper {
+    justify-content: space-between;
+     width: 100%;
+ }
+
+
+ .container3 {
+    
+    float: left;
+    width: 49%;
+    justify-content: space-between;
+    
+ }
+ .container1 {
+    
+    float: left;
+    width: 100%;
+    justify-content: space-between;
+
+      
+  }
+
+  .container2 {
+    width: 49%;
+    float: right;
+    justify-content: space-between;   
+  }
+
+.code {
+    font-size: 12px;
+}
+
+.foot{
+    clear: both;
+    text-align: center;
+    background-color: #530322c7;
+    color: #e8ebe8;
+}
+
+#github {
+     color: aliceblue;
+}
+    
+    

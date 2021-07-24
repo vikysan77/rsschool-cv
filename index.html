@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+
+    <title>HTML, CSS & Git Basics</title>
+</head>
+<body class="body">
+    <main class="main">
+        <h2 id="cv-header">Junior Developer Resume</h2>
+        <div class="wrapper">
+            <div class="container3" >
+                
+                    <figure>
+                        <img src="images/foto.jpg " alt="123" width="300" >
+
+                    </figure>
+                    
+                <section class="container1">
+                    <h3 id="heading2" >Tsimakhovich Viktoryia</h3>
+                </section>
+            
+                <section class="container1">
+                    <h3 class="heading1">Contact Info:</h3>
+                        <ul>
+                            <li> email: <a href="mailto:vikysan@outlook.com">vikysan@outlook.com</a>   
+                            </li>
+                            <li>facebook: <a href="https://www.facebook.com/victoria.tsimakhovich">https://www.facebook.com/victoria.tsimakhovich</a></li>
+                            <li>Discord: vikysan#7656</li>
+                        </ul>
+                </section>
+                <section class="container1">
+                    <h3 class="heading1">Skills:</h3>
+                    <p class="border">
+                        html, css JS, git. Superficial knowledge: jQuery, Bootstrap, PHP, MySQL.
+                    </p>
+                </section>
+                <section class="container1">
+
+                    <h3 class="heading1">Education:</h3>
+                        <ol>
+                            <li>Web development courses on the Udemy platform.</li>
+                            <li>RS School for now.</li>
+                        </ol>
+                </section>
+                <section class="container1">
+                    <h3 class="heading1">Languages skills:</h3>
+                        <ul>
+                            <li>English - A2</li>
+                            <li>Polish - A2</li>
+                        </ul>
+                </section>
+            
+                
+            </div>
+            
+            <div class="container2">
+                
+
+                <section>
+                    <h3 class="heading1">Summary:</h3>
+                    <p class="border">
+                        I’m an electrical engineer. In 2012 I graduated from Belarusian State University of Transport Gomel, Belarus where I was studying on Automation,
+                    Telemechanics and Communication in Railway Transport faculty. Then I was working on the Belarusian Railway for distribution for 4 years.
+                    Also, in 2015, I graduated from the State Economic University Minsk as economist-manager. Then I spent 5 years on maternity leave taking care 
+                    for my children. In recent years, I have been searching for myself. Work in IT always seemed for me as a pipe dream. 
+                    But, a combination of circumstances and support of my friends helped me to get closer to it. 
+                    Recently I’ve finished the courses on the Udemy platform and realized that this is exactly what I was looking for.
+                    And now I’m looking forward to finish RS-School courses with success and fulfill my dream.
+                    </p>
+                </section>
+
+                <section class="container1">
+                    <h3 class="heading1">Experience:</h3>
+                    <p class="border">
+                    I have completed courses for Web development on the Udemy platform.
+                    During these courses, we were creating applications for weight estimation by height, currency exchange, reaction mini-game, etc.
+                    </p>
+                </section>
+                <section class="container1">
+                    <h3 class="heading1">Code examples:</h3> 
+                    <Pre class="code"><code>  
+                        var height = prompt("Введите ваш рост в метрах");
+                        var weight = prompt("Введите ваш вес в килограммах");
+                        var userAge = prompt("Введите ваш возраст");
+                        var index = weight / (height * height);
+                        var groupNumber;
+                        if (userAge >= 18 && userAge) {groupNumber = 1}
+                            else if (userAge >=26 && userAge) {groupNumber = 2}
+                                else  {alert("Вы не входите в группу измерений!");}
+                        if (groupNumber === 1 ) 
+                        {alert("Вес недостаточен.Опасно для здоровья");}
+                        else if (groupNumber === 1 && index >= 17.5) 
+                        {alert("Вес слегка снижен.Неопасно для здоровья");}
+                        else if (groupNumber === 1 && index >= 19.5) 
+                        {alert("Вес нормальный");}
+                        else if (groupNumber === 1 && index >= 23.0) 
+                        {alert("Вес излишний");}
+                        else if (groupNumber === 1 && index >= 27.4 ) 
+                        {alert("Ожирение 1 степени");}
+                        else if (groupNumber === 1 && index >= 29.9) 
+                        {alert("Ожирение 2 степени");}
+                        else if (groupNumber === 1 && index >= 34.9 ) 
+                        {alert("Ожирение 3 степени");}
+                    </code> </Pre>
+
+                </section>
+                
+            </div>
+    
+        </div>
+    
+    
+    </main>
+    <footer class="foot">
+                <a id="github" href="https://github.com/vikysan77">Vikysan</a>
+               
+                <h5>2021</h5>
+                 <a  href="https://rs.school/js/"> <img  src="images/rs_school_js.svg" alt="logo" width="90" height="90" ></a>
+    </footer>
+
+</body>
+</html>
