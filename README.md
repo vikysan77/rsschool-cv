@@ -1,1 +1,1 @@
-https://vikysan77.github.io/rsschool-cv/HTML
+https://vikysan77.github.io/rsschool-cv/
