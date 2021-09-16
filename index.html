@@ -8,46 +8,116 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
 
-    <title>HTML, CSS & Git Basics</title>
+    <title>CV</title>
 </head>
 <body class="body">
+    <header>
+        <div class="container-header">
+        
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li>
+                     <a href="#gallery">Gallery</a>
+                    </li>
+                    <li>
+                     <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                    <a href="#skills">Skills</a>
+                    </li>
+                    <li><a href="#education">Education</a>
+                    </li>
+                    <li>
+                    <a href="#summary">Summary</a>
+                    </li>
+                    <li>
+                    <a href="#experience">Experience</a>
+                    </li>
+                    <li>
+                    <a href="#code">Code</a>
+                    </li>
+                </ul>
+            </nav>        
+        </div>
+      </header>
     <main class="main">
         <h2 id="cv-header">Junior Developer Resume</h2>
         <div class="wrapper">
-            <div class="container3" >
+            <div class="container1" id="gallery">
+                <section class="container1">
+                    <div class="carousel"> 
+                    <div class="item-container">
+                        <div class="item active">
+                            <div class="description">
+                                <div class="project-name" >
+                                    <figure>
+                                         <img src="images/foto1.jpg" alt="foto1" class="imggal" >
+                                    </figure>
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="description">
+                                <div class="project-name">
+                                    <figure>
+                                         <img src="images/foto2.jpg" alt="foto2" class="imggal">
+                                    </figure>
+                                   
                 
-                    <figure>
-                        <img src="images/foto.jpg " alt="123" width="300" >
-
-                    </figure>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="description">
+                                <div class="project-name">
+                                    <figure>
+                                        <img src="images/foto3.jpg" alt="foto2" class="imggal">
+                                   </figure> 
+                                </div>
+                                
+                            </div>
+                        </div>
+        
+                        <div class="control left">
+                            <div class="arrow left">
+                                &lt; 
+                            </div>
+                        </div>  
+                        <div class="control right">
+                            <div class="arrow right">
+                                &gt; 
+                            </div>   
+                        </div>  
+                    </div>
+                </section>
+                
+                
                     
                 <section class="container1">
                     <h3 id="heading2" >Tsimakhovich Viktoryia</h3>
                 </section>
             
-                <section class="container1">
+                <section class="container1" id="contact">
                     <h3 class="heading1">Contact Info:</h3>
                         <ul>
                             <li> email: <a href="mailto:vikysan@outlook.com">vikysan@outlook.com</a>   
                             </li>
                             <li>facebook: <a href="https://www.facebook.com/victoria.tsimakhovich">https://www.facebook.com/victoria.tsimakhovich</a></li>
                             <li>Discord: vikysan#7656</li>
+                            <li>Tel: +375296097224</li>
                         </ul>
                 </section>
-                <section class="container1">
+                <section class="container1" id="skills">
                     <h3 class="heading1">Skills:</h3>
                     <p class="border">
                         html, css JS, git. Superficial knowledge: jQuery, Bootstrap, PHP, MySQL.
                     </p>
                 </section>
-                <section class="container1">
-
-                    <h3 class="heading1">Education:</h3>
-                        <ol>
-                            <li>Web development courses on the Udemy platform.</li>
-                            <li>RS School for now.</li>
-                        </ol>
-                </section>
+                
                 <section class="container1">
                     <h3 class="heading1">Languages skills:</h3>
                         <ul>
@@ -56,13 +126,22 @@
                         </ul>
                 </section>
             
-                
+                <section class="container1" id="education">
+
+                    <h3 class="heading1">Education:</h3>
+                        <ol>
+                            <li>Belarusian State University of Transport Gomel.</li>
+                            <li>State Economic University Minsk.</li>
+                            <li>Web development courses on the Udemy platform.</li>
+                            <li>RS School for now.</li>
+                        </ol>
+                </section>
             </div>
             
-            <div class="container2">
+            <div class="container1">
                 
 
-                <section>
+                <section id="summary">
                     <h3 class="heading1">Summary:</h3>
                     <p class="border">
                         I’m an electrical engineer. In 2012 I graduated from Belarusian State University of Transport Gomel, Belarus where I was studying on Automation,
@@ -75,38 +154,26 @@
                     </p>
                 </section>
 
-                <section class="container1">
+                <section class="container1" id="experience">
                     <h3 class="heading1">Experience:</h3>
                     <p class="border">
                     I have completed courses for Web development on the Udemy platform.
                     During these courses, we were creating applications for weight estimation by height, currency exchange, reaction mini-game, etc.
                     </p>
                 </section>
-                <section class="container1">
+                <section class="container1" id="code">
                     <h3 class="heading1">Code examples:</h3> 
                     <Pre class="code"><code>  
-                        var height = prompt("Введите ваш рост в метрах");
-                        var weight = prompt("Введите ваш вес в килограммах");
-                        var userAge = prompt("Введите ваш возраст");
-                        var index = weight / (height * height);
-                        var groupNumber;
-                        if (userAge >= 18 && userAge) {groupNumber = 1}
-                            else if (userAge >=26 && userAge) {groupNumber = 2}
-                                else  {alert("Вы не входите в группу измерений!");}
-                        if (groupNumber === 1 ) 
-                        {alert("Вес недостаточен.Опасно для здоровья");}
-                        else if (groupNumber === 1 && index >= 17.5) 
-                        {alert("Вес слегка снижен.Неопасно для здоровья");}
-                        else if (groupNumber === 1 && index >= 19.5) 
-                        {alert("Вес нормальный");}
-                        else if (groupNumber === 1 && index >= 23.0) 
-                        {alert("Вес излишний");}
-                        else if (groupNumber === 1 && index >= 27.4 ) 
-                        {alert("Ожирение 1 степени");}
-                        else if (groupNumber === 1 && index >= 29.9) 
-                        {alert("Ожирение 2 степени");}
-                        else if (groupNumber === 1 && index >= 34.9 ) 
-                        {alert("Ожирение 3 степени");}
+                        function createPhoneNumber(numbers){
+                            let forma = "(xxx) xxx-xxxx";
+                           
+                           for(let i = 0; i < numbers.length; i++){
+                             forma = forma.replace('x', numbers[i]);
+                           }
+                           
+                           return forma;
+                         
+                         }
                     </code> </Pre>
 
                 </section>
@@ -117,12 +184,15 @@
     
     
     </main>
+    <aside>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">&uArr; </button> 
+    </aside>
+    
     <footer class="foot">
-                <a id="github" href="https://github.com/vikysan77">Vikysan</a>
-               
-                <h5>2021</h5>
-                 <a  href="https://rs.school/js/"> <img  src="images/rs_school_js.svg" alt="logo" width="90" height="90" ></a>
+                <a id="github" href="https://github.com/vikysan77" style="margin: 30px 0 0 60px;" >Vikysan</a>
+                <a  href="https://rs.school/js/"> <img  src="images/rs_school_js.svg" alt="logo" width="90" height="90" ></a>
+                <h5 style="margin: 30px 60px 0 0;">2021</h5>
     </footer>
-
+    <script src="app.js"></script>
 </body>
 </html>

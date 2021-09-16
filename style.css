@@ -2,8 +2,62 @@
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     background-color: #e8ebe8;
+    margin: 0;
 }
 
+
+  header {
+    position: relative;
+    height: 70px;
+    margin: auto 0;
+    background: #330315;
+  }
+
+  .container-header{
+    position: absolute;
+    width: 1370px;
+    height: 50px;
+    left: 310px;
+    top: 74px;
+    margin: 0 auto;
+     display: flex;
+     flex-wrap: nowrap;
+     flex-direction: row;
+     justify-content: space-between;
+  
+   }
+
+  nav{
+    margin: auto 0;
+    
+   }
+   nav ul {
+    padding: 0;
+    display: flex;
+    position: absolute;
+    max-width: 720px;
+    height: 50px;
+    left: 220px;
+    top: 0px;
+    margin: 0;
+   }
+   nav ul li{
+     list-style: none;
+     padding: 0px 76px 0px 0px;
+   }
+   nav ul li a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 50px;
+    letter-spacing: 2px;
+     color: #fff;
+     
+   }
+   nav ul li a:hover{
+     color: #9d8665;
+   }
 
 #cv-header {
     text-transform: uppercase;
@@ -23,6 +77,14 @@
 
 }
 
+figure {
+ text-align: center;
+}
+.imggal {
+  width: 800px;
+  height: 600px;
+
+}
 .heading1 {
     text-transform: uppercase;
     text-align: left;
@@ -43,11 +105,6 @@
     
 }
 
-
-
-figure {
-    text-align: center;    
- }
 
  .wrapper {
     justify-content: space-between;
@@ -82,6 +139,11 @@ figure {
 }
 
 .foot{
+  
+     display: flex;
+     flex-wrap: nowrap;
+     flex-direction: row;
+     justify-content: space-between;
     clear: both;
     text-align: center;
     background-color: #530322c7;
@@ -92,4 +154,145 @@ figure {
      color: aliceblue;
 }
     
-    
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 5px;
+    z-index: 99; 
+    border: none;
+    outline: none; 
+    background-color: rgba(218, 137, 137, 0.699); 
+    color: white; 
+    cursor: pointer;
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+}
+
+#myBtn:hover {
+    background-color: #555; 
+}
+
+
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+ 
+}
+.item-container {
+  height: 100%;
+  top: 0;
+}
+.item {
+  display: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+ animation: 0.5s ease-in-out;
+
+}
+.item.active,
+.next {
+  display: block;
+}
+.next {
+ position: absolute;
+ top: 0;
+ width: 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ height: 100%;
+ width: 100%;
+}
+.description {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+
+.project-name {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+.control {
+  position: absolute;
+  left: 35%;
+color: #717171c9;
+  z-index: 100;
+}
+.control.left {
+  left: auto;
+  right: 80%;
+  top: 50%;
+}
+.control.right {
+  left: 80%;
+  right: auto;
+  top:50%;
+  
+}
+.arrow {
+  display: inline-block;
+ transform: translateY(-50%);
+  font-size: 60px;
+  
+}
+
+.arrow:hover {
+  color: rgb(138, 26, 26);
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+.to-left{
+animation-name: left;
+
+}
+.to-right{
+animation-name: right;
+animation-direction: reverse;
+}
+.from-left{
+  animation-name: left;
+ animation-direction: reverse;
+}
+.from-right{
+  animation-name: right;
+  
+}
+@keyframes left {
+  from {
+      left: 0;
+  }
+  to {
+     left: -100%;
+  }
+}
+@keyframes right {
+  from {
+      left: 100%;
+  }
+  to { 
+    left: 0;
+  }
+}
+
+@media (max-width: 960px){
+  .description {
+      flex-direction: column;
+      align-items:center ;
+  }
+}
