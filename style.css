@@ -16,7 +16,6 @@
   .container-header{
     position: absolute;
     height: 50px;
-    top: 74px;
     margin: 0 auto;
      display: flex;
      flex-wrap: nowrap;
