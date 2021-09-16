@@ -15,9 +15,7 @@
 
   .container-header{
     position: absolute;
-    width: 1370px;
     height: 50px;
-    left: 310px;
     top: 74px;
     margin: 0 auto;
      display: flex;
@@ -35,9 +33,8 @@
     padding: 0;
     display: flex;
     position: absolute;
-    max-width: 720px;
     height: 50px;
-    left: 480px;
+    left: 40vh;
     top: 0px;
     margin: 0;
    }
