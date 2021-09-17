@@ -12,32 +12,39 @@
 </head>
 <body class="body">
     <header>
-        <div class="container-header">
-            <nav class="navigation">
-                <ul>
-                    <li>
-                     <a href="#gallery">Gallery</a>
-                    </li>
-                    <li>
-                     <a href="#contact">Contact</a>
-                    </li>
-                    <li>
-                    <a href="#skills">Skills</a>
-                    </li>
-                    <li><a href="#education">Education</a>
-                    </li>
-                    <li>
-                    <a href="#summary">Summary</a>
-                    </li>
-                    <li>
-                    <a href="#experience">Experience</a>
-                    </li>
-                    <li>
-                    <a href="#code">Code</a>
-                    </li>
-                </ul>
-            </nav>        
-        </div>
+        <div class="navbar">
+            <div class="logo">
+            <h2> <a href="https://rs.school/js/" style="text-decoration: none; color: aliceblue;">RS-School </a></h2>
+            </div>
+            <ul class="links">
+                <li>
+                    <a href="#gallery">Gallery</a>
+                   </li>
+                   <li>
+                    <a href="#contact">Contact</a>
+                   </li>
+                   <li>
+                   <a href="#skills">Skills</a>
+                   </li>
+                   <li><a href="#education">Education</a>
+                   </li>
+                   <li>
+                   <a href="#summary">Summary</a>
+                   </li>
+                   <li>
+                   <a href="#experience">Experience</a>
+                   </li>
+                   <li>
+                   <a href="#code">Code</a>
+                   </li>
+            </ul>
+            <div class="toggle">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+            </div>
+          </div>
+          
     </header>
     <main class="main">
         <h2 id="cv-header">Junior Developer Resume</h2>
@@ -45,60 +52,69 @@
             <div class="container1" id="gallery">
                 <section class="container1">
                     <div class="carousel"> 
-                        <div class="item-container">
-                            <div class="item active">
-                                <div class="description">
-                                    <div class="project-name" >
-                                        <figure>
-                                            <img src="images/foto1.jpg" alt="foto1" class="imggal" >
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="description">
-                                    <div class="project-name">
-                                        <figure>
-                                            <img src="images/foto2.jpg" alt="foto2" class="imggal">
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="description">
-                                    <div class="project-name">
-                                        <figure>
-                                            <img src="images/foto3.jpg" alt="foto2" class="imggal">
-                                    </figure> 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="control left">
-                                <div class="arrow left">
-                                    <h5>
-                                        &lt;
-                                    </h5>
-                                     
-                                </div>
-                            </div>  
-                            <div class="control right">
-                                <div class="arrow right">
-                                    <h5>
-                                        &gt; 
-                                    </h5>
+                    <div class="item-container">
+                        <div class="item active">
+                            <div class="description">
+                                <div class="project-name" >
+                                    <figure>
+                                         <img src="images/foto1.jpg" alt="foto1" class="imggal" >
+                                    </figure>
                                    
-                                </div>   
-                            </div>  
+                                </div>
+                                
+                            </div>
                         </div>
+                        <div class="item">
+                            <div class="description">
+                                <div class="project-name">
+                                    <figure>
+                                         <img src="images/foto2.jpg" alt="foto2" class="imggal">
+                                    </figure>
+                                   
+                
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="description">
+                                <div class="project-name">
+                                    <figure>
+                                        <img src="images/foto3.jpg" alt="foto2" class="imggal">
+                                   </figure> 
+                                </div>
+                                
+                            </div>
+                        </div>
+        
+                        <div class="control left">
+                            <div class="arrow left">
+                                <h2>
+                                    &lt; 
+                                </h2>
+                                
+                            </div>
+                        </div>  
+                        <div class="control right">
+                            <div class="arrow right">
+                                <h2>
+                                    &gt; 
+                                </h2>
+                                
+                            </div>   
+                        </div>  
                     </div>
-                </section>  
+                </section>
+                
+                
+                    
                 <section class="container1">
                     <h3 id="heading2" >Tsimakhovich Viktoryia</h3>
                 </section>
             
                 <section class="container1" id="contact">
                     <h3 class="heading1">Contact Info:</h3>
-                        <ul>
+                        <ul style="padding: 35px;">
                             <li> email: <a href="mailto:vikysan@outlook.com">vikysan@outlook.com</a>   
                             </li>
                             <li>facebook: <a href="https://www.facebook.com/victoria.tsimakhovich">https://www.facebook.com/victoria.tsimakhovich</a></li>
@@ -115,7 +131,7 @@
                 
                 <section class="container1">
                     <h3 class="heading1">Languages skills:</h3>
-                        <ul>
+                        <ul style="padding: 35px;">
                             <li>English - A2</li>
                             <li>Polish - A2</li>
                         </ul>
@@ -162,7 +178,7 @@
                         function createPhoneNumber(numbers){
                             let forma = "(xxx) xxx-xxxx";
                            
-                           for(let i = 0; i  numbers.length; i++){
+                           for(let i = 0; i numbers.length; i++){
                              forma = forma.replace('x', numbers[i]);
                            }
                            
@@ -172,12 +188,8 @@
                     </code> </Pre>
 
                 </section>
-                
             </div>
-    
         </div>
-    
-    
     </main>
     <aside>
         <button onclick="topFunction()" id="myBtn" title="Go to top">&uArr; </button> 
