@@ -4,7 +4,11 @@
   background-color: #e8ebe8;
   margin: 0;
 }
-
+.central {
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+}
 header {
 position: relative;
 height: 90px;
@@ -83,7 +87,7 @@ color: #fff;
 color: #530322c7;
 }
 .navbar.sticky {
-position: fixed;
+
 z-index: 40;
 }
 .navbar.sticky ~ main {
@@ -176,7 +180,7 @@ filter: blur(1px);
 opacity: 0.8;
 }
 .navbar.sticky {
-position: fixed;
+
 z-index: 40;
 }
 a {
@@ -278,7 +282,7 @@ filter: blur(1px);
 opacity: 0.8;
 }
 .navbar.sticky {
-position: fixed;
+
 z-index: 40;
 }
 .carousel {
@@ -421,7 +425,8 @@ padding: 15px;
 .carousel {
 position: relative;
 overflow: hidden;
-width: 100vw;
+max-width: 1200px;
+min-width: 320px;
 
 }
 .item-container {
@@ -475,11 +480,11 @@ z-index: 100;
 }
 .control.left {
 left: auto;
-right: 80%;
+right: 90%;
 top: 50%;
 }
 .control.right {
-left: 80%;
+left: 90%;
 right: auto;
 top:50%;
 
