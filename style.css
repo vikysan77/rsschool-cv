@@ -10,14 +10,13 @@
   margin: 0 auto;
 }
 header {
-position: relative;
-height: 90px;
-margin: auto 0;
-
+  position: relative;
+  height: 90px;
+  margin: auto 0;
 }
 
 * {
-transition: 0.4s ease all;
+  transition: 0.4s ease all;
 }
 h1,
 h2,
@@ -25,163 +24,161 @@ h3,
 h4,
 h5,
 h6 {
-margin: 0;
+  margin: 0;
 }
 ul {
-padding: 0;
-margin: 0;
+  padding: 0;
+  margin: 0;
 }
 .navbar {
-background: #495875;
-color: #fff;
-width: 100%;
-height: 65px;
-display: flex;
-align-items: center;
+  background: #495875;
+  color: #fff;
+  width: 100%;
+  height: 65px;
+  display: flex;
+  align-items: center;
 }
 .navbar .logo {
-cursor: pointer;
-font-family: "Lacquer";
-margin: 0 0 0 15px;
+  cursor: pointer;
+  font-family: "Lacquer";
+  margin: 0 0 0 15px;
 }
 .navbar ul.links {
-font-family: "Nunito";
-margin-left: auto;
-margin-right: 50px;
-list-style: none;
-display: flex;
-align-items: center;
-transition: 0.4s ease all, 0s ease background;
+  font-family: "Nunito";
+  margin-left: auto;
+  margin-right: 50px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  transition: 0.4s ease all, 0s ease background;
 }
 .navbar ul.links li {
-text-transform: uppercase;
-padding: 0 15px;
-height: 65px;
-display: flex;
-justify-content: center;
-align-items: center;
-transition: 0.4s ease all, 0s ease margin;
+  text-transform: uppercase;
+  padding: 0 15px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease all, 0s ease margin;
 }
 .navbar ul.links li a {
-text-decoration: none;
-color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 .navbar ul.links li:hover {
-background: #530322c7;
-cursor: pointer;
+  background: #530322c7;
+  cursor: pointer;
 }
 .navbar ul.links li:hover a {
-color: #cc7b30;
+  color: #cc7b30;
 }
 
 .content {
-background-size: cover;
-height: calc(100vh - 65px);
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-color: #fff;
+  background-size: cover;
+  height: calc(100vh - 65px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
 .content h2 {
-color: #530322c7;
+  color: #530322c7;
 }
 .navbar.sticky {
 
-z-index: 40;
+  z-index: 40;
 }
 .navbar.sticky ~ main {
-position: relative;
-z-index: 20;
-top: 65px;
+  position: relative;
+  z-index: 20;
+  top: 65px;
 }
 section {
-
-font-weight: bold;
-letter-spacing: 0.5px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
 }
 @media screen and (max-width: 850px) {
 .navbar .right {
-height: 0;
-overflow: hidden;
+  height: 0;
+  overflow: hidden;
 }
 .toggle {
-position: absolute;
-top: 32.5px;
-right: 20px;
-z-index: 99;
-transform: translateY(-50%);
-cursor: pointer;
-width: 40px;
-height: 40px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  position: absolute;
+  top: 32.5px;
+  right: 20px;
+  z-index: 99;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .toggle > * {
-width: 80%;
-height: 2px;
-background: #fff;
-margin: 3px 0;
+  width: 80%;
+  height: 2px;
+  background: #fff;
+  margin: 3px 0;
 }
 .navbar.collapsed .toggle .line1 {
-transform: rotate(-45deg) translate(-4px, 5px);
+  transform: rotate(-45deg) translate(-4px, 5px);
 }
 .navbar.collapsed .toggle .line2 {
-opacity: 0;
+  opacity: 0;
 }
 .navbar.collapsed .toggle .line3 {
-transform: rotate(45deg) translate(-5px, -6px);
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 .navbar.collapsed .logo {
-position: absolute;
-z-index: 44;
+  position: absolute;
+  z-index: 44;
 }
 .navbar .links {
-position: fixed;
-background: #495875;
-font-family: "Nunito";
-z-index: 40;
-top: 0;
-left: -100%;
-flex-direction: column;
-width: 45vw;
-height: 100vh;
+  position: fixed;
+  background: #495875;
+  font-family: "Nunito";
+  z-index: 40;
+  top: 0;
+  left: -100%;
+  flex-direction: column;
+  width: 45vw;
+  height: 100vh;
 }
 .navbar .links li:first-child {
-margin-top: 80px;
+  margin-top: 80px;
 }
 .navbar.collapsed .links {
-left: 0;
+  left: 0;
 }
 .navbar.collapsed .links a {
-color: #fff;
+  color: #fff;
 }
 .navbar.collapsed .links li {
-width: 100%;
+  width: 100%;
 }
 .navbar.collapsed .links li:hover a {
-color: #495875;
+  color: #495875;
 }
 .navbar.collapsed .right {
-position: fixed;
-font-family: "Nunito";
-width: 45vw;
-text-align: center;
-height: auto;
-bottom: 40px;
-left: 22.5vw;
-transform: translateX(-50%);
-z-index: 45;
+  position: fixed;
+  font-family: "Nunito";
+  width: 45vw;
+  text-align: center;
+  height: auto;
+  bottom: 40px;
+  left: 22.5vw;
+  transform: translateX(-50%);
+  z-index: 45;
 }
 .navbar.collapsed ~ main {
-filter: blur(1px);
-opacity: 0.8;
+  filter: blur(1px);
+  opacity: 0.8;
 }
 .navbar.sticky {
-
-z-index: 40;
+  z-index: 40;
 }
 a {
   font-size: 10px;
@@ -204,86 +201,85 @@ a {
   font-size: 10px;
 }
 .navbar .right {
-height: 0;
-overflow: hidden;
+  height: 0;
+  overflow: hidden;
 }
 .toggle {
-position: absolute;
-top: 32.5px;
-right: 20px;
-z-index: 99;
-transform: translateY(-50%);
-cursor: pointer;
-width: 40px;
-height: 40px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  position: absolute;
+  top: 32.5px;
+  right: 20px;
+  z-index: 99;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .toggle > * {
-width: 80%;
-height: 2px;
-background: #fff;
-margin: 3px 0;
+  width: 80%;
+  height: 2px;
+  background: #fff;
+  margin: 3px 0;
 }
 .navbar.collapsed .toggle .line1 {
-transform: rotate(-45deg) translate(-4px, 5px);
+  transform: rotate(-45deg) translate(-4px, 5px);
 }
 .navbar.collapsed .toggle .line2 {
-opacity: 0;
+  opacity: 0;
 }
 .navbar.collapsed .toggle .line3 {
-transform: rotate(45deg) translate(-5px, -6px);
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 .navbar.collapsed .logo {
-position: absolute;
-z-index: 44;
+  position: absolute;
+  z-index: 44;
 }
 .navbar .links {
-position: fixed;
-background: #495875;
-font-family: "Nunito";
-z-index: 40;
-top: 0;
-left: -100%;
-flex-direction: column;
-width: 45vw;
-height: 100vh;
+  position: fixed;
+  background: #495875;
+  font-family: "Nunito";
+  z-index: 40;
+  top: 0;
+  left: -100%;
+  flex-direction: column;
+  width: 45vw;
+  height: 100vh;
 }
 .navbar .links li:first-child {
-margin-top: 80px;
+  margin-top: 80px;
 }
 .navbar.collapsed .links {
-left: 0;
+  left: 0;
 }
 .navbar.collapsed .links a {
-color: #fff;
+  color: #fff;
 }
 .navbar.collapsed .links li {
-width: 100%;
+  width: 100%;
 }
 .navbar.collapsed .links li:hover a {
-color: #495875;
+  color: #495875;
 }
 .navbar.collapsed .right {
-position: fixed;
-font-family: "Nunito";
-width: 45vw;
-text-align: center;
-height: auto;
-bottom: 40px;
-left: 22.5vw;
-transform: translateX(-50%);
-z-index: 45;
+  position: fixed;
+  font-family: "Nunito";
+  width: 45vw;
+  text-align: center;
+  height: auto;
+  bottom: 40px;
+  left: 22.5vw;
+  transform: translateX(-50%);
+  z-index: 45;
 }
 .navbar.collapsed ~ main {
-filter: blur(1px);
-opacity: 0.8;
+  filter: blur(1px);
+  opacity: 0.8;
 }
-.navbar.sticky {
-
-z-index: 40;
+.navbar.sticky {  
+  z-index: 40;
 }
 .carousel {
   box-sizing: unset;
@@ -322,11 +318,11 @@ img {
 }
 
 figure {
-text-align: center;
+  text-align: center;
 }
 .imggal {
-width: 800px;
-height: 600px;
+  width: 800px;
+  height: 600px;
 
 }
 .heading1 {
@@ -341,7 +337,7 @@ height: 600px;
 
 }
 .heading1 ul li{
-padding: 15px;
+  padding: 15px;
 }
 .border {
   border-left: 5px solid  #495875;
@@ -357,14 +353,6 @@ padding: 15px;
    width: 100%;
 }
 
-
-.container3 {
-  
-  float: left;
-  width: 49%;
-  justify-content: space-between;
-  
-}
 .container1 {
   
   float: left;
@@ -373,38 +361,31 @@ padding: 15px;
 
     
 }
-
-.container2 {
-  width: 49%;
-  float: right;
-  justify-content: space-between;   
-}
-
 .code {
   font-size: 8px;
 }
 
 .foot{
 
-   display: flex;
-   flex-wrap: nowrap;
-   flex-direction: row;
-   justify-content: space-between;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
   clear: both;
   text-align: center;
   background-color: #495875;
   color: #e8ebe8;
-}
+  }
 
 #github {
-   color: aliceblue;
+  color: aliceblue;
 }
   
 #myBtn {
   display: none; 
   position: fixed; 
   bottom: 20px; 
-  right: 5px;
+  right: 6px;
   z-index: 99; 
   border: none;
   outline: none; 
@@ -423,102 +404,102 @@ padding: 15px;
 
 
 .carousel {
-position: relative;
-overflow: hidden;
-max-width: 1200px;
-min-width: 320px;
+  position: relative;
+  overflow: hidden;
+  max-width: 1200px;
+  min-width: 320px;
 
 }
 .item-container {
-height: 100%;
-top: 0;
+  height: 100%;
+  top: 0;
 }
 .item {
-display: none;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-height: 100%;
-width: 100%;
-animation: 0.5s ease-in-out;
+  display: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  animation: 0.5s ease-in-out;
 
 }
 .item.active,
 .next {
-display: block;
+  display: block;
 }
 .next {
-position: absolute;
-top: 0;
-width: 100%;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-height: 100%;
-width: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
 }
 .description {
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-height: 100%;
-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
 }
 
 .project-name {
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-height: 100%;
-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
 }
 .control {
-position: absolute;
-left: 35%;
-color: #717171c9;
-z-index: 100;
+  position: absolute;
+  left: 35%;
+  color: #717171c9;
+  z-index: 100;
 }
 .control.left {
-left: auto;
-right: 90%;
-top: 50%;
+  left: auto;
+  right: 90%;
+  top: 50%;
 }
 .control.right {
-left: 90%;
-right: auto;
-top:50%;
+  left: 90%;
+  right: auto;
+  top:50%;
 
 }
 .arrow {
-display: inline-block;
-transform: translateY(-50%);
-font-size: 60px;
+  display: inline-block;
+  transform: translateY(-50%);
+  font-size: 60px;
 
 }
 
 .arrow:hover {
   cursor: pointer;
-color: #530322c7;
+  color: #530322c7;
 }
 
 .arrow:focus {
-outline: none;
+  outline: none;
 }
 
 .to-left{
-animation-name: left;
+  animation-name: left;
 
 }
 .to-right{
-animation-name: right;
-animation-direction: reverse;
+  animation-name: right;
+  animation-direction: reverse;
 }
 .from-left{
-animation-name: left;
-animation-direction: reverse;
+  animation-name: left;
+  animation-direction: reverse;
 }
 .from-right{
-animation-name: right;
+  animation-name: right;
 
 }
 @keyframes left {
