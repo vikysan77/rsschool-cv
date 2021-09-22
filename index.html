@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="libs/styles/base16/dracula.min.css">
 
     <title>CV</title>
 </head>
@@ -28,6 +29,9 @@
                                 <li>
                                 <a href="#skills">Skills</a>
                                 </li>
+                                <li>
+                                <a href="#examples">Examples</a>
+                                </li>
                                 <li><a href="#education">Education</a>
                                 </li>
                                 <li>
@@ -39,6 +43,7 @@
                                 <li>
                                 <a href="#code">Code</a>
                                 </li>
+
                             </ul>
                         <div class="toggle">
                         <div class="line1"></div>
@@ -91,17 +96,17 @@
             
                             <div class="control left">
                                 <div class="arrow left">
-                                    <h2>
+                                    <h4>
                                         &lt; 
-                                    </h2>
+                                    </h4>
                                     
                                 </div>
                             </div>  
                             <div class="control right">
                                 <div class="arrow right">
-                                    <h2>
+                                    <h4>
                                         &gt; 
-                                    </h2>
+                                    </h4>
                                     
                                 </div>   
                             </div>  
@@ -137,7 +142,32 @@
                         </ul>
                     </p>
                 </section>
-                
+                <section class="container1" id="examples">
+                    <h3 class="heading1">Examples:</h3>
+                    <div class="examples">
+                        <div class="example">
+                             <figure class="figur">
+                            <figcaption class="figcaption">Vertical slider</figcaption>
+                            <a href="https://rolling-scopes-school.github.io/vikysan77-JSFEPRESCHOOL/vertical-slider/" target="_blank" style="width:300px ;">
+                            <img src="images/sli.png" alt="" class="img-example">
+                            </a>
+                            <p><hr size="1"> 
+                                Used: CSS, HTML, JavaScript</p>
+                        </figure>
+                        </div>
+                       <div class="example" >
+                           <figure class="figur">
+                            <figcaption class="figcaption" >CV</figcaption>
+                            <a href="https://vikysan77.github.io/rsschool-cv/" target="_blank">
+                            <img src="images/cv.png" alt="" class="img-example">
+                            </a>
+                            <p> <hr size="1"> Used: CSS, HTML, JavaScript</p>
+                        </figure>
+                       </div>
+                        
+                        
+                    </div>
+                </section>
                 <section class="container1">
                     <h3 class="heading1">Languages skills:</h3>
                         <ul style="padding: 35px;">
@@ -183,17 +213,17 @@
                 </section>
                 <section class="container1" id="code">
                     <h3 class="heading1">Code examples:</h3> 
-                    <Pre class="code"><code>  
-                        function createPhoneNumber(numbers){
-                            let forma = "(xxx) xxx-xxxx";
+    <Pre><code class="js">  
+    function createPhoneNumber(numbers){
+        let forma = "(xxx) xxx-xxxx";
                            
-                           for(let i = 0; i numbers.length; i++){
-                             forma = forma.replace('x', numbers[i]);
-                           }
+        for(let i = 0; i numbers.length; i++){
+            forma = forma.replace('x', numbers[i]);
+            }
                            
-                           return forma;
+            return forma;
                          
-                         }
+        }
                     </code> </Pre>
 
                 </section>
@@ -212,5 +242,8 @@
     </div>
     
     <script src="app.js"></script>
+    <script src="libs/highlight.js"></script>
+    <script src="libs/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>
