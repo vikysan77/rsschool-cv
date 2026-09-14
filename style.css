@@ -360,6 +360,10 @@ a:hover {
 }
 
 .cv-footer-link:hover {
+    transform: translateY(-0.125rem);
+}
+
+.cv-footer-link:hover {
     color: #fff;
     background-color: #9678d3;
 }
