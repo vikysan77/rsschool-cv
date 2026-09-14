@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Потехина Виктория</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cv-wrapper">
+        <header class="cv-header">
+            <img class="cv-avatar" src="assets/avatar.jpg" alt="Фото">
+            <div class="cv-intro">
+                <h1 class="cv-name">Потехина Виктория</h1>
+                <p class="cv-role">Full-Stack JS Developer</p>
+            </div>
+        </header>
+        <main class="cv-main">
+            <nav class="cv-nav" aria-label="Summary sections">
+                <ul class="cv-nav-list">
+                    <li><a class="cv-nav-link" href="#contacts">Контакты</a></li>
+                    <li><a class="cv-nav-link" href="#info">О себе</a></li>
+                    <li><a class="cv-nav-link" href="#skills">Навыки</a></li>
+                    <li><a class="cv-nav-link" href="#code">Код</a></li>
+                    <li><a class="cv-nav-link" href="#experience">Опыт</a></li>
+                    <li><a class="cv-nav-link" href="#projects">Примеры</a></li>
+                    <li><a class="cv-nav-link" href="#education">Образование</a></li>
+                    <li><a class="cv-nav-link" href="#languages">Языки</a></li>
+                </ul>
+            </nav>
+            <section id="contacts" class="cv-section">
+                <h2 class="cv-section-title">Контактная информация</h2>
+                <ul class="cv-contacts">
+                    <li><span class="cv-contact-label">Адрес:</span> пер. Солнечный д.2, Ратомка, Минский р-н, 223035, Беларусь</li>
+                    <li><span class="cv-contact-label">Тел. номер:</span> <a href="tel:+375291327857">+375 29 132 78 57</a></li>
+                    <li><span class="cv-contact-label">Email:</span> <a href="mailto:vikysan@outlook.com">vikysan@outlook.com</a></li>
+                </ul>
+            </section>
+            <section id="info" class="cv-section">
+                <h2 class="cv-section-title">Информация</h2>
+                <p class="cv-info">
+                    В 2012 я окончила Белорусский государственный университет транспорта в Гомеле по специальности
+                    инженер-электрик-связист. Затем я 4 года работала на Белорусской железной дороге по распределению.
+                    Также в 2015 году я окончила Белорусский государственный экономический университет по специальности
+                    экономист-менеджер. В 2022 году я окончила курс JS/Front-end developer и курс Angular в RS School.
+                    С 2022 по 2023 год я работала разработчиком ПО в компании ОДО "Легин-104". С конца 2023 года по
+                    семейным обстоятельствам мне пришлось закончить с программированием. Весной 2026 года я сделала сайт
+                    с помощью ИИ для своего проекта. В ходе разработки поняла, что многое забывается. Чтобы вспомнить и
+                    улучшить свои знания, я пришла на курс Full-Stack JS. В 2027 году я планирую вернуться в разработку
+                    с новыми знаниями и силами.
+                </p>
+            </section>
+            <section id="skills" class="cv-section">
+                <h2 class="cv-section-title">Навыки</h2>
+                <ul class="cv-skills">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>PHP</li>
+                    <li>Vue.js</li>
+                    <li>React</li>
+                    <li>Angular</li>
+                    <li>Git</li>
+                    <li>Figma</li>
+                    <li>Docker</li>
+                    <li>MySQL</li>
+                    <li>Postman</li>
+                </ul>
+            </section>
+            <section id="code" class="cv-section">
+                <h2 class="cv-section-title">Пример кода</h2>
+                <pre class="cv-code"><code>import { SearchItem } from './search-item.model';
+
+export interface ISearchResponse {
+  items: {
+    id: {
+      videoId: string;
+    }
+  }[],
+}
+
+export interface SearchResponse {
+  kind: string;
+  etag: string;
+  nextPageToken: string;
+  regionCode: string;
+  pageInfo: {
+    totalResults: number;
+    resultsPerPage: number;
+  };
+  items: SearchItem[];
+}</code></pre>
+            </section>
+            <section id="experience" class="cv-section">
+                <h2 class="cv-section-title">Опыт работы</h2>
+                <ul class="cv-timeline">
+                    <li><span class="cv-timeline-year">2022</span> окончила курс JS/Front-end developer и курс Angular в RS School.</li>
+                    <li><span class="cv-timeline-year">2022–2023</span> работала в компании ОДО "Легион-104" разработчиком ПО.</li>
+                    <li><span class="cv-timeline-year">2026</span> сделала сайт с использованием ИИ.</li>
+                </ul>
+            </section>
+            <section id="projects" class="cv-section">
+                <h2 class="cv-section-title">Примеры работ</h2>
+                <div class="cv-projects">
+                    <a class="cv-project" href="https://rslang-treyer.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <img class="cv-project-img" src="assets/rslang.png" alt="rslang">
+                        <span class="cv-project-title">rslang</span>
+                    </a>
+                    <a class="cv-project" href="https://koloski.by" target="_blank" rel="noopener noreferrer">
+                        <img class="cv-project-img" src="assets/koloski.png" alt="koloski.by">
+                        <span class="cv-project-title">koloski.by</span>
+                    </a>
+                </div>
+            </section>
+            <section id="education" class="cv-section">
+                <h2 class="cv-section-title">Образование</h2>
+                <ul class="cv-list">
+                    <li>БелГУД 2007–2012.</li>
+                    <li>БГЭУ 2012–2015.</li>
+                    <li>Курс на платформе Udemy 2021.</li>
+                    <li>Курсы RS School 2021–2022 и в данное время.</li>
+                </ul>
+            </section>
+            <section id="languages" class="cv-section">
+                <h2 class="cv-section-title">Языки</h2>
+                <ul class="cv-list">
+                    <li>English — A2</li>
+                    <li>Polish — A2</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="cv-footer">
+            <span class="cv-footer-year">© 2026</span>
+            <a class="cv-footer-link" href="https://github.com/vikysan77" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a class="cv-footer-logo" href="https://rs.school/courses/javascript" target="_blank" rel="noopener noreferrer" aria-label="RS School JavaScript course">
+                <img src="assets/rs_school_js.svg" alt="Логотип">
+            </a>
+        </footer>
+    </div>
+</body>
+</html>
