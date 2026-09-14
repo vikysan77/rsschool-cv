@@ -151,6 +151,11 @@ body {
     min-width: 6.5rem;
 }
 
+.cv-info {
+    margin: 0;
+    color: #6b6b80;
+}
+
 .cv-footer {
     display: flex;
     align-items: center;
