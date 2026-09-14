@@ -65,6 +65,30 @@
                     <li>Postman</li>
                 </ul>
             </section>
+            <section id="code" class="cv-section">
+                <h2 class="cv-section-title">Code examples</h2>
+                <pre class="cv-code"><code>import { SearchItem } from './search-item.model';
+
+export interface ISearchResponse {
+  items: {
+    id: {
+      videoId: string;
+    }
+  }[],
+}
+
+export interface SearchResponse {
+  kind: string;
+  etag: string;
+  nextPageToken: string;
+  regionCode: string;
+  pageInfo: {
+    totalResults: number;
+    resultsPerPage: number;
+  };
+  items: SearchItem[];
+}</code></pre>
+            </section>
 
         </main>
         <footer class="cv-footer">
