@@ -38,17 +38,16 @@ body {
 }
 
 .cv-avatar {
+    flex-shrink: 0;
     width: 8.5rem;
     height: 8.5rem;
     object-fit: cover;
     border-radius: 50%;
     border: 0.25rem solid #ffffff;
     box-shadow: 0 0 0 0.25rem #9678d3, 0 0.375rem 1rem rgba(150, 120, 211, 0.35);
-    flex-shrink: 0;
 }
 
 .cv-name {
-    margin: 0;
     font-size: 2.25rem;
     line-height: 1.15;
     letter-spacing: -0.02em;
@@ -56,12 +55,13 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    margin: 0;
 }
 
 .cv-role {
-    margin: 0.5rem 0 0;
     display: inline-block;
     padding: 0.25rem 0.875rem;
+    margin: 0.5rem 0 0;
     font-size: 0.9375rem;
     font-weight: 600;
     letter-spacing: 0.04em;
@@ -118,11 +118,11 @@ body {
 
 .cv-section-title::before {
     content: "";
+    width: 0.375rem;
     position: absolute;
     left: 0;
     top: 0;
     bottom: 0;
-    width: 0.375rem;
     background: linear-gradient(180deg, #7c5cbe, #c7b3e8);
     border-radius: 0.5rem 0 0 0.5rem;
 }
@@ -146,14 +146,41 @@ body {
 }
 
 .cv-contact-label {
+    min-width: 6.5rem;
     font-weight: 700;
     color: #7c5cbe;
-    min-width: 6.5rem;
 }
 
 .cv-info {
     margin: 0;
     color: #6b6b80;
+}
+
+.cv-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cv-skills li {
+    padding: 0.375rem 0.875rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #7c5cbe;
+    background: linear-gradient(135deg, #efe9f9, #f3eefb);
+    border: 0.0625rem solid #ddd2ef;
+    border-radius: 999px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.cv-skills li:hover {
+    transform: translateY(-0.1875rem);
+    box-shadow: 0 0.375rem 1rem rgba(150, 120, 211, 0.35);
+    background: linear-gradient(135deg, #7c5cbe, #b698e0);
+    color: #fff;
 }
 
 .cv-footer {
